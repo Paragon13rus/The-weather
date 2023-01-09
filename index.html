@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="search_box">
+            <input class="search_txt" type="text" placeholder="Aktobe">
+            <button type="button" class="search_icon">
+                <iconify-icon icon="ic:baseline-search" width="30px"></iconify-icon>
+            </button>
+
+        </div>
+
+        <div class="sides">
+            <div class="left_side">
+                <div class="information">
+                    <ul>
+                        <li id="now">
+                            <div class="temp"><p>14°</p></div>
+                            <div class="weather_img">
+                                <iconify-icon icon="material-symbols:cloud" width="85"></iconify-icon>
+                            </div>
+                            <div class="selected">
+                                <div class="selected_city">Aktobe</div>
+                                <div class="add_to_favorite">
+                                    <iconify-icon icon="material-symbols:favorite-outline" width="25" height="27"></iconify-icon>
+                                </div>
+                            </div>    
+                        </li>
+                        <li id="details">
+                            <div class="details_box">
+                                <div class="selected_city_box"><p class="selected_city_txt">Aktobe</p></div>
+                                <ul class="selected_city_details">
+                                    <li>Temperature: 14</li>   
+                                    <li>Feels like: 10</li>
+                                    <li>Weather: Clouds</li>
+                                    <li>Sunrise: 03:21</li>
+                                    <li>Sunset: 18:54</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li id="forecast"></li>
+                    </ul>
+
+                </div>
+
+                <div class="tabs">
+                    <ul class="tabs_btn">
+                        <li class="tabs_item"><a href="#now">Now</a></li>
+                        <li class="tabs_item"><a href="#details">Details</a></li>
+                        <li class="tabs_item"><a href="#forecast">Forecast</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right_side">
+                <div class="added_location">
+                    <p class="added_txt">Added Locations:</p>
+                </div>
+                <div class="new_location">
+                    <ul class="new_loc">
+                        <li class="new_city">Amur</li>
+                        <li class="new_city">Samara</li>
+                        <li class="new_city">Bali</li>
+                        <li class="new_city">Dane</li>
+                        <li class="new_city">Kilo</li>
+                        <li class="new_city">Nur-Sultan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
