@@ -1,3 +1,3 @@
 # The-weather page without JS.
 
-You can open my page [here](https://github.com/Paragon13rus/The-weather)
+You can open my page [here](https://paragon13rus.github.io/The-weather/)
